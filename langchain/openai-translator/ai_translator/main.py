@@ -17,4 +17,4 @@ if __name__ == "__main__":
 
     # 实例化 PDFTranslator 类，并调用 translate_pdf() 方法
     translator = PDFTranslator(config.model_name)
-    translator.translate_pdf(config.input_file, config.output_file_format, pages=5)
+    translator.translate_pdf(config.input_file, config.output_file_format, pages=2, target_language=config.target_language)
